@@ -1,0 +1,38 @@
+li a {
+    color: red;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat;
+}
+
+.a-enter-vr {
+    font-family: sans-serif,monospace;
+    font-size: 13px;
+    width: 100%;
+    font-weight: 200;
+    line-height: 16px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.a-enter-vr-button {
+    background: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg…28.58C245.82%2C12.34%2C233.93%2C0%2C218.19%2C0H27.27Z%22%2F%3E%3C%2Fsvg%3E) 50% 50%/70% 70% no-repeat rgba(0,0,0,.35);
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    min-width: 50px;
+    min-height: 30px;
+    padding-right: 5%;
+    padding-top: 4%;
+    position: absolute;
+    right: 0;
+    transition: background-color .05s ease;
+    -webkit-transition: background-color .05s ease;
+    z-index: 9999;
+}
+
+.a-enter-vr-button, .a-enter-vr-modal, .a-enter-vr-modal a {
+    color: #fff;
+}
